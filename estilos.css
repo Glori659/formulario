@@ -1,0 +1,88 @@
+/* HEADER
+------------------------- */
+
+.navbar-brand img { max-width: 100px; }
+
+.bg-dark { background: #333a40!important; }
+
+.navbar-dark .navbar-nav .btn-compra-tickets { color: #25a342; }
+
+@media (min-width: 992px) {
+  .btn-compra-tickets {
+    border: 1px solid transparent;
+    border-radius: .8rem;
+  }
+  .btn-compra-tickets:hover,
+  .navbar-dark .navbar-nav .btn-compra-tickets.active {
+    background: #25a342;
+  }
+}
+
+
+/* ESPACIADO
+-------------------------------------------------- */
+
+.espaciado{
+  padding-top: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+p{
+  text-align: center;
+}
+
+h5{
+  text-align: center;
+}
+
+h6{
+  text-align: center;
+}
+
+/* BOTONES
+---------------------------------------- */
+
+.botones{
+  display: flex;
+  flex-wrap: nowrap;
+ 
+  
+}
+
+
+/* VENTAVALOR
+-------------------------------------------------- */
+
+.ventavalor{
+   padding-top: 2%;
+  padding-bottom: 2%;
+  text-align: center;
+  
+}
+
+
+
+
+
+
+/* FOOTER
+-------------------------------------------------- */
+
+#main-footer {
+    background: #1d3c4e;
+    color: #fff;
+    padding: 1.5rem;
+   margin-top: 2%;
+  }
+  
+  #main-footer .nav-link {
+    color: #fff;
+    text-align: center;
+  }
+  #main-footer .nav-link:hover { opacity: .7; }
+  
+  @media (min-width: 992px) {
+    #main-footer .nav-link span { display: block; }
+  }
